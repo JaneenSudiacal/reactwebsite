@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  padding: 0;
+}
+
+.navbar {
+  background-color: pink;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  max-width: 200px;
+  height: auto;
+  margin: 0 1rem;
+  padding: 3px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 0 1rem;
+}
+
+.hero {
+  background-color: lightcyan;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
