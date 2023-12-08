@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #root {
@@ -11,21 +11,33 @@ body {
   background-color: pink;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .logo {
-  font-size: 24px;
+  /* font-size: 36px;
   font-weight: 900;
-  color: white;
-  text-shadow: 1px 1px 2px grey;
-  max-width: 200px;
+  color: #99736B; */
+  /* text-shadow: 1px 1px 2px grey; */
+  /* max-width: 200px; */
   height: auto;
   margin: 1rem 4rem;
   padding: 4px;
-  border: 2px solid grey;
-  border-radius: 8px;
+  /* -webkit-text-stroke: #5F4843 1px; */
+  align-items: center;
+  /* border: 2px solid grey;
+  border-radius: 8px; */
+}
+
+.logo-button {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 900;
+  /* font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  color: #99736B;
+  -webkit-text-stroke: #5F4843 1px;
 }
 
 .nav-links {
@@ -41,13 +53,14 @@ body {
 
 .nav-link a {
   text-decoration: none;
-  color: white;
-  text-shadow: 1px 1px 2px grey;
+  color: #5F4843;
+  font-size: 24px;
+  /* text-shadow: 1px 1px 2px grey; */
 }
 
 .hero {
-  background-color: lightcyan;
-  color: grey;
+  background-color: #BFA8A3;
+  color: #5F4843;
   display: flex;
   justify-content: space-around;
   padding: 4rem;
@@ -70,9 +83,9 @@ body {
 }
 
 button {
-  background-color: pink;
-  color: grey;
-  border: none;
+  background-color: #BFA8A3;
+  color: #5F4843;
+  border: 2px solid #5F4843;
   border-radius: 8px;
   width: 150px;
   height: 40px;
@@ -81,51 +94,52 @@ button {
 }
 
 img {
-  width: 300px;
+  width: 400px;
   height: auto;
   object-fit: cover;
-  border: 4px dotted pink;
+  /* border: 4px dotted #5F4843; */
   border-radius: 8px;
   padding: 4px;
 }
 
 .tile-section {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .tile-title {
   font-size: 36px;
   font-weight: bold;
-  color: grey;
+  color: #5F4843;
   text-align: center;
-  text-decoration: underline overline dashed pink;
+  /* text-decoration: underline overline dashed pink; */
 }
 
 .tiles {
   display: flex;
-  justify-content: space-evenly;
-  margin: 2rem;
+  justify-content: space-around;
+  margin: 2rem 0;
 }
 
 .tile-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100px;
+  max-width: 200px;
   gap: 8px;
 }
 
 .tile {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  border:4px solid pink;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 8px solid pink;
   background-color: white;
 }
 
 .tile-text {
   text-align: center;
-  color: grey;
+  font-size: 18px;
+  color: #5F4843;
 }
 
 .quote-section {
@@ -133,8 +147,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
-  color: white;
+  background-color: #BFA8A3;
+  /* color: white; */
 }
 
 .quote {
@@ -145,13 +159,19 @@ img {
 }
 
 .quote-text {
+  color: #99736B;
   font-size: 36px;
   font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-text-stroke: #5F4843 1px;
 }
 
 .attr {
+  color: #99736B;
+  -webkit-text-stroke: #5F4843 1px;
   font-size: 24px;
-  font-weight: bold;  
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .action-section {
@@ -159,9 +179,9 @@ img {
 }
 
 .action-box {
-  background-color: lightcyan;
-  color: grey;
-  border: 4px solid grey;
+  background-color: white;
+  color: #5F4843;
+  border: 4px solid #5F4843;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -181,17 +201,18 @@ img {
 
 .action-subtext {
   font-weight: light;
+  font-size: 18px;
 }
 
 .action-button {
-  border: 2px solid grey;
-  background-color: lightcyan;
-  color: grey;
+  border: 2px solid #5F4843;
+  background-color: white;
+  color: #5F4843;
 }
 
 .footer {
   background-color: pink;
-  color: grey;
+  color: #5F4843;
   display: flex;
   justify-content: center;
   padding: 32px;

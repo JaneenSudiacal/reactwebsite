@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        ninnichigo
+        <Link to="/" className='logo-button'>ninni's recipes</Link>
       </div>
       <div>
         <ul className="nav-links">
